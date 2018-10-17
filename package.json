@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "dev": "netlify-lambda serve src/",
+    "build": "netlify-lambda build src/"
+  },
+  "devDependencies": {
+    "@types/moment": "^2.13.0",
+    "netlify-lambda": "^1.0.2"
+  },
+  "dependencies": {
+    "moment": "^2.22.2"
+  }
+}
